@@ -19,6 +19,6 @@ MonoBehaviour:
   speed: 3
   critChance: 100
   critCondition: 0
-  baseCooldown: 10
+  baseCooldown: 0
   baseAmmo: 10
   maxDurability: 0
