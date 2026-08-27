@@ -367,6 +367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scripts.Systems.SplashScreenController
   displayDuration: 3
+  targetMenuScene: 01_MainMenu
 --- !u!1 &1718132133
 GameObject:
   m_ObjectHideFlags: 0
