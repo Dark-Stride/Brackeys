@@ -365,7 +365,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1926639185
+--- !u!1 &762648408
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -373,8 +373,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1926639187}
-  - component: {fileID: 1926639186}
+  - component: {fileID: 762648411}
+  - component: {fileID: 762648410}
+  - component: {fileID: 762648409}
   m_Layer: 0
   m_Name: _Manager
   m_TagString: Untagged
@@ -382,19 +383,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1926639186
+--- !u!114 &762648409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926639185}
+  m_GameObject: {fileID: 762648408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53195987a9d89ed685531945a7306b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scripts.Systems.Debugging.GameFlowDebugGUI
+  toggleKey: 282
+--- !u!114 &762648410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762648408}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8643974abb06de861ae83092d0e9f08c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scripts.Systems.GameFlowManager
-  currentStep: 9
+  currentStep: 11
   cutscene1: {fileID: 0}
   cutscene2: {fileID: 0}
   cutscene3: {fileID: 0}
@@ -402,18 +416,18 @@ MonoBehaviour:
   cutscene5: {fileID: 0}
   splashSceneName: 00_Splash
   menuSceneName: 01_MainMenu
-  gameplay1SceneName: 02_Gameplay1_Tutorial
-  gameplay2SceneName: 03_Gameplay2_Mission
-  gameplay3SceneName: 04_Gameplay3_HQ_Dungeon
-  gameplay4SceneName: 05_Gameplay4_Boss
+  gameplay1SceneName: 02_Tutorial
+  gameplay2SceneName: 03_Mission01
+  gameplay3SceneName: 04_HQ
+  gameplay4SceneName: 05_Dungeon
   creditsSceneName: 06_Credits
---- !u!4 &1926639187
+--- !u!4 &762648411
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926639185}
+  m_GameObject: {fileID: 762648408}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.99723, y: -0.17416, z: 0}
@@ -455,6 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scripts.Systems.SplashScreenController
   displayDuration: 3
+  targetMenuScene: 01_MainMenu
 --- !u!114 &2125804896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,5 +559,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 641232126}
   - {fileID: 67008586}
-  - {fileID: 1926639187}
   - {fileID: 2125804899}
+  - {fileID: 762648411}
