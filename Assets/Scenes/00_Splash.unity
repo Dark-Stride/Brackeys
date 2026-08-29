@@ -298,6 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 189602132}
   - component: {fileID: 189602131}
+  - component: {fileID: 189602133}
   m_Layer: 0
   m_Name: _Manager
   m_TagString: Untagged
@@ -345,6 +346,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &189602133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189602130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53195987a9d89ed685531945a7306b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scripts.Systems.Debugging.GameFlowDebugGUI
+  toggleKey: 282
 --- !u!1 &1345364766
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,16 +477,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9286c07cfce96b147b41d7ee8bf56014, type: 3}
   m_Name: 
-<<<<<<< HEAD
-  m_EditorClassIdentifier: Assembly-CSharp::Scripts.Systems.SplashScreenController
-  displayDuration: 3
-  targetMenuScene: 01_MainMenu
-=======
   m_EditorClassIdentifier: Assembly-CSharp::CraterGlow
   glowImage: {fileID: 48334283}
   pulseDuration: 0.8
   maxAlpha: 0.8
->>>>>>> origin/main
 --- !u!1 &1718132133
 GameObject:
   m_ObjectHideFlags: 0
