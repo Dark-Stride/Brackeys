@@ -1,10 +1,26 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-03.png.meta
+guid: 6c69da956d36eccadbc40c212fb040c6
+=======
 guid: aa1680bba11eb054e82bff9345fecabd
+>>>>>>> origin/main
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -9177916927446470325
     second: Village-03_0
+<<<<<<< HEAD
+========
+guid: 7daedfd7d89f7cc45842549a6e116aca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1017788007686146577
+    second: Village-04_0
+>>>>>>>> origin/main:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-04.png.meta
+=======
+>>>>>>> origin/main
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +116,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-03.png.meta
       name: Village-03_0
+========
+      name: Village-04_0
+>>>>>>>> origin/main:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-04.png.meta
+=======
+      name: Village-03_0
+>>>>>>> origin/main
       rect:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-03.png.meta
         width: 1472
+========
+        width: 1600
+>>>>>>>> origin/main:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-04.png.meta
+=======
+        width: 1472
+>>>>>>> origin/main
         height: 832
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +147,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-03.png.meta
       spriteID: b4132816e2d71a080800000000000000
       internalID: -9177916927446470325
+========
+      spriteID: fe5f631133710e1f0800000000000000
+      internalID: -1017788007686146577
+>>>>>>>> origin/main:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-04.png.meta
+=======
+      spriteID: b4132816e2d71a080800000000000000
+      internalID: -9177916927446470325
+>>>>>>> origin/main
       vertices: []
       indices: 
       edges: []
@@ -135,7 +177,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-03.png.meta
       Village-03_0: -9177916927446470325
+========
+      Village-04_0: -1017788007686146577
+>>>>>>>> origin/main:Assets/Art/Assets_old/Legacy Vania Pack - Village - Update 0.4/Social/Village-04.png.meta
+=======
+      Village-03_0: -9177916927446470325
+>>>>>>> origin/main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
